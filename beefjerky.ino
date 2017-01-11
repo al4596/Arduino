@@ -36,7 +36,6 @@ long RCTime(int sensorIn)
   }
   return duration;
 }
-
 void goStraight(){
   leftServo.write(180); 
   rightServo.write(0); 
